@@ -20,7 +20,7 @@
 let panier = 350;
 if (panier > 500) {
     let coutFinal = panier * 0.9; 
-    console.log("Cout final: " + coutFinal + " , Livrasion: Gratuit");
+    console.log("Cout final: " + coutFinal + " MAD , Livrasion: Gratuit");
 } else if (panier > 200) {
     console.log("Cout final: " + panier + " MAD, Livrasion: Gratuit");
 } else {
