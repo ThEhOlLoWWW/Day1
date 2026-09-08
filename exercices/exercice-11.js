@@ -17,4 +17,12 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let panier = 350;
+if (panier > 500) {
+    let coutFinal = panier * 0.9; 
+    console.log("Cout final: " + coutFinal + " , Livrasion: Gratuit");
+} else if (panier > 250) {
+    console.log("Cout final: " + panier + " MAD, Livrasion: Gratuit");
+} else {
+    console.log("Cout final: " + panier + " MAD, Livrasion: Payant");
+}
