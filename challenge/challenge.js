@@ -27,3 +27,4 @@ let revenuMensuel = 8000;
 
 let mensualité = montantEmprunte / dureeEnMois;
 let seuil = revenuMensuel * 0.3;
+
