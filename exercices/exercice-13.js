@@ -17,4 +17,25 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let num1 = 10;
+let num2 = 5;
+let operateur = "*";
+let resultat;
+
+switch(operateur) {
+    case "+" :
+        resultat = num1 + num2;
+        break;
+    case "-" :
+        resultat = num1 - num2;
+        break;
+    case "*" :
+        resultat = num1 * num2;
+        break;
+    case "/" :
+        resultat = num1 / num2;
+        break;
+    default :
+        resultat = "invalable";
+}
+console.log(resultat);
