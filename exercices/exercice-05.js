@@ -17,4 +17,10 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let nombre = 15;
+let rest = nombre % 2;
+if (rest = 0) {
+    console.log("Pair");
+} else {
+    console.log("imPair");
+}
