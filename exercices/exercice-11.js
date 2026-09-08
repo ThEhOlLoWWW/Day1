@@ -21,7 +21,7 @@ let panier = 350;
 if (panier > 500) {
     let coutFinal = panier * 0.9; 
     console.log("Cout final: " + coutFinal + " , Livrasion: Gratuit");
-} else if (panier > 250) {
+} else if (panier > 200) {
     console.log("Cout final: " + panier + " MAD, Livrasion: Gratuit");
 } else {
     console.log("Cout final: " + panier + " MAD, Livrasion: Payant");
